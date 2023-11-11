@@ -20,7 +20,7 @@ const handleRequest = async (request) => {
     return new Response(await renderFile("count.eta", data), responseDetails);
   }
 
-  return new Response("Hello you!");
+  return new Response("Seeking truths beyond meaning of life, you will find 43.");
 };
 
 serve(handleRequest, { port: 7777 });
